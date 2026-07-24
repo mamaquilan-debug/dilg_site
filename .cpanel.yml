@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/region11/davdeoro.region11.dilg.gov.ph/repositories/dilg_site
-    - /bin/cp -a . $DEPLOYPATH
+    - export DEPLOYPATH=/home/region11/davdeoro.region11.dilg.gov.ph
+    - /bin/cp -R admin css database images includes uploads *.php $DEPLOYPATH
