@@ -1,4 +1,12 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$page = "ppa";
+// ... rest of file stays the same
+
+<?php
 $page = "ppa";
 $page_title = "Programs, Projects & Activities";
 
