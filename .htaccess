@@ -1,5 +1,13 @@
 RewriteEngine On
 
-RewriteCond %{REQUEST_FILENAME} !-d
+# Default document
+DirectoryIndex index.php
+
+# Do not rewrite existing files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite URLs without .php
 RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^([^/]+)/?$ $1.php [L]
+RewriteRule ^([^.]+)/?$ $1.php [L]

@@ -29,7 +29,7 @@
 
         <li>
             <a href="index.php">
-                <i class="bi bi-plus-circle"></i>
+                <i class="bi bi-box-arrow-right"></i>
                 Go to site
             </a>
         </li>
