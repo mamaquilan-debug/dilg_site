@@ -17,12 +17,12 @@
             <div class="col-lg-2 col-md-4">
                 <h5>Quick Links</h5>
                 <ul class="footer-links">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="latest_news.php">Latest News</a></li>
-                    <li><a href="gad_corner.php">GAD Corner</a></li>
-                    <li><a href="ppa.php">PPA's</a></li>
-                    <li><a href="municipalities.php">Municipalities</a></li>
-                    <li><a href="about.php">About Us</a></li>
+                    <li><a href="index">Home</a></li>
+                    <li><a href="latest_news">Latest News</a></li>
+                    <li><a href="gad_corner">GAD Corner</a></li>
+                    <li><a href="ppa">PPA's</a></li>
+                    <li><a href="municipalities">Municipalities</a></li>
+                    <li><a href="about">About Us</a></li>
                 </ul>
             </div>
 

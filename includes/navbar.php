@@ -1,12 +1,12 @@
 <?php
 // Nav items: label, target page, and the $page key that marks it active
 $navItems = [
-    ["label" => "Home",          "href" => "index.php",               "key" => "home"],
-    ["label" => "Latest News",   "href" => "latest_news.php",         "key" => "news"],
-    ["label" => "PPA's",         "href" => "ppa.php",                 "key" => "ppa"],
-    ["label" => "GAD Corner",    "href" => "gad_corner.php",          "key" => "gad"],
-    ["label" => "Municipalities","href" => "municipalities.php", "key" => "muni"],
-    ["label" => "About Us",      "href" => "about.php",               "key" => "about"],
+    ["label" => "Home",          "href" => "index",           "key" => "home"],
+    ["label" => "Latest News",   "href" => "latest_news",      "key" => "news"],
+    ["label" => "PPA's",         "href" => "ppa",               "key" => "ppa"],
+    ["label" => "GAD Corner",    "href" => "gad_corner",        "key" => "gad"],
+    ["label" => "Municipalities","href" => "municipalities",    "key" => "muni"],
+    ["label" => "About Us",      "href" => "about",             "key" => "about"],
 ];
 
 $currentPage = $page ?? "";
