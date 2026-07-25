@@ -28,6 +28,13 @@
         </li>
 
         <li>
+            <a href="index.php">
+                <i class="bi bi-plus-circle"></i>
+                Go to site
+            </a>
+        </li>
+
+        <li>
             <a href="logout.php">
                 <i class="bi bi-box-arrow-right"></i>
                 Logout
