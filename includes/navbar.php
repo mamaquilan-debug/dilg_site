@@ -5,7 +5,7 @@ $navItems = [
     ["label" => "Latest News",   "href" => "latest_news.php",         "key" => "news"],
     ["label" => "PPA's",         "href" => "ppa.php",                 "key" => "ppa"],
     ["label" => "GAD Corner",    "href" => "gad_corner.php",          "key" => "gad"],
-    ["label" => "Municipalities","href" => "municipalities.php", "key" => "muni"],
+    ["label" => "Municipalities","href" => "municipalities.php",      "key" => "muni"],
     ["label" => "About Us",      "href" => "about.php",               "key" => "about"],
 ];
 
