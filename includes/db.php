@@ -7,7 +7,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "dilg_davaodeoro";
+$db   = "region11_dilg_davaodeoro";
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
